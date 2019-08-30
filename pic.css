@@ -1,0 +1,91 @@
+
+body{
+  background-color: #777;
+  width: 900px;
+  margin: auto ;
+}
+
+code {
+   
+    
+    
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+  }
+
+  header,
+  section,
+  aside,
+  footer,
+  nav,
+  .group,
+  h1,
+  p {
+    margin: 1% 1.5% 24px 1.5%;
+    background-color: #ebebeb;
+    color: #777;
+  }
+  section {
+    float: left;
+    width: 100%;
+    background-color: #777;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ebebeb;
+    
+  }
+  aside {
+    float: right;
+    width: 35%;
+    height: 410px;
+    
+  }
+  .default
+  {
+    background: none;
+    color: #666;
+    
+  }
+  .group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+  
+  .group {
+    float: left;
+    width: 495px;
+    clear: both;
+    
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+  }
+  h1 {
+    clear: both;
+    width: 80%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    
+    width: 80%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  footer {
+    clear: both;
+    margin-bottom: 0;
+  }
